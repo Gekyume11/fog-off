@@ -104,6 +104,7 @@ header ul li a{
         height: calc(100dvh - 70px);
         z-index: 1;
         transition: .5s ease;
+        overflow: hidden;
     }
     #toggle:checked ~ label ul{
         top: 70px;
